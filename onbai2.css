@@ -1,0 +1,32 @@
+.container{
+    width: 1060px;
+    height:400px;
+    display:flex;
+    gap:10px;
+}
+.block1,.block2,.block3,.block4{
+    width:250px;
+    height:400px;
+}
+a.text{
+    text-decoration: none;
+    color: black
+}
+a.text:hover{
+    color: red;
+}
+span.date{
+    font-size: 13px;
+    color: gray;
+}
+ul.list{
+    padding-left: 20px;      
+    text-align: left;     
+}
+ul.list a{
+    text-decoration: none;  
+    color: gray;
+}
+ul.list a:hover{
+    color: red;
+}
